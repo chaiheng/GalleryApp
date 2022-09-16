@@ -1,0 +1,114 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    buildFeatures {
+        viewBinding = true
+    }
+    compileSdkVersion externalCompileSdkVersion
+    buildToolsVersion externalBuildToolsVersion
+
+    defaultConfig {
+        applicationId "com.example.galleryapp"
+        minSdkVersion 19
+        targetSdkVersion 31
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+//
+//    signingConfigs {
+//        release {
+//            keyAlias 'flv'
+//            keyPassword 'flv2022'
+//            storeFile file('../flv.jks')
+//            storePassword 'flv2022'
+//
+//        }
+//        debug {
+//            keyAlias 'flv'
+//            keyPassword 'flv2022'
+//            storeFile file('../flv.jks')
+//            storePassword 'flv2022'
+//        }
+//    }
+// 支持大工程模式
+    dexOptions {
+        jumboMode = true
+    }
+    lintOptions {
+        abortOnError false
+    }
+
+//移除lint检测的error
+    lintOptions {
+        abortOnError false
+        checkReleaseBuilds false
+    }
+
+    buildTypes {
+//        release {
+//            multiDexEnabled true
+//            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+//            signingConfig signingConfigs.release
+//        }
+        debug {
+            multiDexEnabled true
+//            minifyEnabled false
+//            shrinkResources true
+            debuggable true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+//            signingConfig signingConfigs.release
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    android.applicationVariants.all {
+        variant ->
+            variant.outputs.all {
+                //这里修改apk文件名
+                outputFileName = "${defaultConfig.name}_v${defaultConfig.versionName}_${buildType.name}_${releaseTime()}.apk"
+            }
+    }
+
+
+
+}
+
+
+static def releaseTime() {
+    return new Date().format("yyyy-MM-dd HH.mm.ss.SSS", TimeZone.getTimeZone("GMT+08:00"))
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+    mavenCentral()
+
+}
+
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.6.1'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    implementation project(':modulebase')
+    implementation project(':rxeasyhttp')
+    implementation externalAndroidMultiDex
+}

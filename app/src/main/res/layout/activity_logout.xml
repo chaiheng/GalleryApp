@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="氢雀影创注销须知"
+                android:textColor="#707273"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="［重要］在您注销您的氢雀影创帐号之前，请充分阅读、理解并同意下列事项："
+                android:textColor="#707273"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="【特别提示】注销氢雀影创帐号为不可恢复的操作，除您已授权提供至第三方的信息以外，注销帐号后您将无法再使用本氢雀影创账号或找回您浏览、关注、添加、绑定的任何内容或信息（即使您使用相同的手机号码再次注册并使用氢雀影创）。"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="请确保您所申请注销的氢雀影创帐号应当是您本人依照《氢雀影创用户服务协议》的约定创建并由本公司提供给您本人的帐号。您应当依照本公司规定的程序或网站上的提示注销氢雀影创帐号。建议您在注销前自行备份氢雀影创帐号相关的所有信息，并请确认与本氢雀影创账号相关的所有服务均已进行妥善处理。注销完成后，氢雀影创将删除您的个人信息或对其进行匿名化处理（法律法规另有规定的除外）。请您知悉并理解，根据相关法律法规规定相关日志记录氢雀影创将保留不少于6个月的时间。"
+                android:textColor="#707273"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1．我们对您注销氢雀影创账号的决定深表遗憾。如果您仍决定继续进行帐号注销，您的帐号需同时满足以下条件："
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1.1帐号处于安全状态：帐号处于正常使用状态，无被盗风险 1.2帐号财产已结清，没有未完成或存在争议的服务：帐号中没有资产、欠款、未结清的资金和虚拟权益；本账号及通过本账号接入的第三方中没有未完成或存在争议的服务。 1.3帐号权限解除：帐号已解除与第三方产品、网站授权登录或绑定关系。 1.4账号无任何未结争议纠纷，包括投诉举报或被投诉举 报。"
+                android:textColor="#707273"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="2．氢雀影创帐号注销后，您将无法登录、使用本氢雀影创帐号，也将无法找回本氢雀影创帐号中及与帐号相关的任何内容或信息，包括但不限于："
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="2.1．个人已提交的身份信息、帐号信息、氢雀影创好友关系等信息。 2.2．已发布的视频作品、随拍视频、动态、点赞、评 论、转发、互动、粉丝、喜欢、收藏等内容数据。 2.3．通过本氢雀影创账号使用、授权登录或绑定本氢雀影创账号后使用的氢雀影创或第三方服务的相关记录将无法找回。您将无法再登录、使用上述服务，通过上述服务曾获得的资产或虚拟权益等财产性利益视为您同意放弃，将无法继续使用。您理解并同意，氢雀影创无法协助您重新恢复上述服务。 2.4．帐号内钱包账户余额、奖励、收益、实名认证信 息、交易记录、已绑定的银行卡等信息将被作废及删 除。"
+                android:textColor="#707273"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="请确认账号内无任何资产或虚拟权益，您曾获得的 资产虚拟权益等财产性利益视为您同意放弃，将无法继 续使用。您理解并同意，您将放弃氢雀影创的资产或权益，氢雀影创无法协助您恢复上述服务，也无法找回账号相关的任何内容或信息。"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="3．氢雀影创账号注销将导致本公司终止为您提供服务,依《氢雀影创用户服务协议》和《隐私政策》等约定的双方权利义务终止，依法律法规另有规定、本页面其他条款另行约定不得终止的或依其性质不能终止的除外。"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="4．在您的氢雀影创帐号注销期间，如果您的帐号涉及争议纠纷，包括但不限于：投诉、举报、诉讼、仲裁、国家有权机关调查等，您理解并同意，氢雀影创有权自行决定是否终止本帐号的注销而无需另行得到您的同意。 5．注销本氢雀影创账号并不代表本氢雀影创帐号注销前的账户行为和相关责任得到豁免或减轻。"
+                android:textColor="#707273"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <ImageView
+            android:id="@+id/cert_iv_agree"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/ic_cert_noagree" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="我已阅读并同意"
+            android:textColor="#707273"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="以上须知"
+            android:textColor="#3692FF"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv_logout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/detail_share_bg"
+            android:gravity="center"
+            android:text="确认注销"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp" />
+    </LinearLayout>
+</RelativeLayout>

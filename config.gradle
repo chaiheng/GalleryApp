@@ -1,0 +1,98 @@
+ext {
+
+
+
+    externalAndroidAppcompat = 'androidx.appcompat:appcompat:1.2.0-alpha03'
+    externalAndroidMaterial = 'com.google.android.material:material:1.1.0'
+    externalAndroidAppCompatV7 = 'com.android.support:appcompat-v7:28.0.0'
+    externalAndroidAppCompatV7ToSnapSvideo = 'com.android.support:appcompat-v7:28.0.0'
+    externalAndroidCardView = 'com.android.support:cardview-v7:28.0.0'
+    externalAndroidMultiDex = 'com.android.support:multidex:1.0.3'
+    externalAndroidRecyclerView = 'com.android.support:recyclerview-v7:28.0.0'
+    externalAndroidSupportV13 = 'com.android.support:support-v13:23.4.0'
+    externalAndroidSupportV4 = 'com.android.support:support-v4:28.0.0'
+
+    externalAndroidDesign = 'com.android.support:design:28.0.0'
+
+    //Test related third party libraries
+    externalAndroidTestEspressoCore = 'com.android.support.test.espresso:espresso-core:2.2.2'
+    externalAndroidTestRunner = 'com.android.support.test:runner:0.4.1'
+    externalHamcrestLibrary = 'org.hamcrest:hamcrest-library:1.3'
+    externalMockito = 'org.mockito:mockito-core:1.10.19'
+    externalJunit = 'junit:junit:4.12'
+
+    externalDexmakerDx = 'com.crittercism.dexmaker:dexmaker-dx:1.4'
+    externalDexmakerMockito = 'com.crittercism.dexmaker:dexmaker-mockito:1.4'
+
+    //Application Layer
+    externalBaseRecyclerViewAdapterHelper = 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.50'
+    externalbanner = 'com.youth.banner:banner:2.1.0'
+    externalCircleimageview = 'de.hdodenhof:circleimageview:3.0.1'
+    externalFastjson = 'com.alibaba:fastjson:1.2.62'
+    externalRxjava2 = 'io.reactivex.rxjava2:rxjava:2.2.10'
+    externalRxAndroid2 = "io.reactivex.rxjava2:rxandroid:2.0.1"
+    externalRxBinding = 'com.jakewharton.rxbinding3:rxbinding:3.1.0'
+    externalZxinglite = 'com.king.zxing:zxing-lite:1.1.4-androidx'
+    externalRxpermissions = 'com.github.tbruyelle:rxpermissions:0.10.2'
+    externalMagicIndicator = 'com.github.hackware1993:MagicIndicator:1.5.0'
+    externalConstraint = 'com.android.support.constraint:constraint-layout:1.1.3'
+    externalEventBus = 'org.greenrobot:eventbus:3.2.0'
+    externalAliyunOSS = 'com.aliyun.dpa:oss-android-sdk:+'
+    externalPagerSlidingTabStrip = 'com.astuetz:pagerslidingtabstrip:1.0.1'
+    externalEasyPermissions = 'pub.devrel:easypermissions:0.2.1'
+    externalOrmLiteAndroid = 'com.j256.ormlite:ormlite-android:4.48'
+    externalGlide = 'com.github.bumptech.glide:glide:4.11.0'
+    externalGlideCompiler = 'com.github.bumptech.glide:compiler:4.11.0'
+    externalGlideOkHttp = 'com.github.bumptech.glide:okhttp3-integration:1.4.0@aar'
+    externalGlideTransformations = 'jp.wasabeef:glide-transformations:4.0.0'
+
+    externalSimpleZXing = 'com.acker:simplezxing:1.5'
+    externalPicasso = 'com.squareup.picasso:picasso:2.5.2'
+
+
+
+    //SDK Layer
+    externalJSR305 = 'com.google.code.findbugs:jsr305:3.0.0'
+    externalOKHTTP = 'com.squareup.okhttp3:okhttp:3.4.0'
+    externalRetrofit = 'com.squareup.retrofit2:retrofit:2.9.0'
+    externalRetrofitGson = 'com.squareup.retrofit2:converter-gson:2.5.0'
+    externalRetrofitLog = 'com.squareup.okhttp3:logging-interceptor:3.12.2'
+    externalRetrofitAdapter = 'com.squareup.retrofit2:adapter-rxjava2:2.5.0'
+    externalOKIO = 'com.squareup.okio:okio:1.12.0'
+    externalGSON = 'com.google.code.gson:gson:2.8.6'
+    externalMqtt = 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.1.0'
+    externalHttpCore = 'org.apache.httpcomponents:httpcore:4.4.1'
+    externalToast = 'com.hjq:toast:8.0'
+    externalMatisse = 'com.zhihu.android:matisse:0.5.3-beta3'
+    externalKtx = "androidx.core:core-ktx:1.6.0"
+
+
+    //ARouter
+    externalarouterapi = 'com.alibaba:arouter-api:1.5.2'
+    externalaroutercompiler = 'com.alibaba:arouter-compiler:1.5.2'
+
+    //leakcanary
+    externalLeakcanaryDebug = 'com.squareup.leakcanary:leakcanary-android:1.6.3'
+    externalLeakcanaryRelease = 'com.squareup.leakcanary:leakcanary-android-no-op:1.6.3'
+    externalLeakcanaryFragment = 'com.squareup.leakcanary:leakcanary-support-fragment:1.6.3'
+    //lottie
+    externalLottie = 'com.airbnb.android:lottie:3.3.0'
+    //logger
+    externalLogger = 'com.orhanobut:logger:2.2.0'
+
+    //SmartRefreshLayout
+    externalSmartRefreshLayout = 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0'
+    externalZxinglite = 'com.king.zxing:zxing-lite:1.1.4-androidx'
+
+
+
+
+    externalCompileSdkVersion = 31
+    externalBuildToolsVersion = '29.0.2'
+    externalMinSdkVersion = 19
+    externalPlayerMinSdkVersion = 16
+    externalLiveMinSdkVersion = 18
+    externalTargetSdkVersion = 31
+
+
+}

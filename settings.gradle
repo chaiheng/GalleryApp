@@ -1,0 +1,4 @@
+include ':modulebase'
+include ':rxeasyhttp'
+include ':app'
+rootProject.name = "GalleryApp"
